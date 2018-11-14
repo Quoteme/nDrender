@@ -7,7 +7,7 @@ Write a .json file that contains all the coordinates for all the verticies of
 your shape and connect these verticies with faces inside your .json file.
 After you have successfully created a n-Dimensional object, simply load it
 with the nDrenderer written by my, Luca Leon Happel and see the magic happen.
----
+
 This project aims to create a very simple n-dimensional object&vertex&face viewer.
 Simplicity and ease of use are the top priority (after getting the engine to work.
 So, if you plan to visualize your data in n-Dimensions or you just want to create
