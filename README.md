@@ -24,3 +24,11 @@ u|move to a higher first rotation dimension
 j|move to a lower first rotation dimension
 i|move to a higher second rotation dimension
 k|move to a lower second rotation dimension
+y|toggle wireframe
+x|toggle drawing faces
+c|decrease face opacity
+v|increase face opacity
+r|increase rotation x-origin
+f|decrease rotation x-origin
+t|increase rotation y-origin
+g|decrease rotation y-origin
