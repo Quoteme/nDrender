@@ -1,4 +1,4 @@
-# nDrender #
+# [https://quoteme.github.io/nDrender/](nDrender) #
 
 A simple yet fully functional n-D renderer.
 ---
@@ -17,7 +17,7 @@ a fun n-Dimensional game, this library is for you. A wiki is soon to come.
 ![Demo image](demo2.gif)
 ![Demo image](demo_voxel.gif)
 
-Important key bindings are:
+### key bindings:
 
 **Key**|**Action**
 :-----:|:-----:
@@ -39,3 +39,15 @@ r|increase rotation x-origin
 f|decrease rotation x-origin
 t|increase rotation y-origin
 g|decrease rotation y-origin
+
+### .json file format:
+Name|Type|Value
+:--:|:--:|:---:
+name|`string`|name of the model
+dime|`int`|number of basis vectors needed / number of dimensions
+rota|`nCr(dime,2)*[int]`|rotations between the axis
+posi|`dime*[int]`|position of the object in space
+scle|`dime*[int]`|scale of each basis vector
+vert|`{string: dime*[int]}`|pairs of vertecies in space with their name
+face|`{string: 4*[vert]}`|pairs of names with 4 touples of vertecy names
+mate|`{string: {cface:#xxxxxx, cwire:#yyyyyy}}`|pairs of face names with their material data (cface is the face color and cwire is the border color)
