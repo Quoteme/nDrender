@@ -1,4 +1,4 @@
-# [https://quoteme.github.io/nDrender/](nDrender) #
+# [nDrender](https://quoteme.github.io/nDrender/) #
 
 A simple yet fully functional n-D renderer.
 ---
